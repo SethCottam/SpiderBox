@@ -1,0 +1,5 @@
+# Git doesn't track empty directories so we've added a .gitignore
+*
+*/
+!.gitignore
+!spiderbox_home.html

@@ -1,0 +1,24 @@
+authtoken: [INSERT AUTH TOKEN HERE]
+# authtoken: ${NGROK_TOKEN}  # TODO: Finish this
+region: us
+log_level: info
+log_format: json
+# TODO: Should probably keep this local with ./ngrok.log and a .gitignore
+# log: /var/log/ngrok.log  # TODO: Permission denied, need to fix this later
+# web_addr: localhost:4040
+tunnels:
+  default:
+    proto: http
+    addr: 5001
+    # subdomain: subdomain1
+    hostname: [INSERT HOST NAME].ngrok.io
+  # default-https:
+    # proto: https  # Invalid protocol on paid accounts
+    # addr: 5000
+    # subdomain: subdomain1
+    # hostname: test1.ngrok.io
+  # default2:
+    # proto: httpmem flask
+    # addr: 5000
+    # subdomain: subdomain2
+    # hostname: test2.ngrok.io
