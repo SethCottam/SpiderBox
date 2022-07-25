@@ -42,10 +42,11 @@ A tunnel to the web! This was a fairly quick setup to allow others to easily sha
 
 ## Installation & Setup
 
-_note your will need to setup a free (or paid) account with Ngrok https://dashboard.ngrok.com/signup to get your tunnel credentials_
+_Note: you will need to setup a free (or paid) account with Ngrok https://dashboard.ngrok.com/signup to get your tunnel credentials_
 
 
-### Recommended installation with HomeBrew and PyEnv (_for running without impacting your default Python insatllation_)
+### Recommended installation with HomeBrew and PyEnv
+(_for running without impacting your default Python installation_)
 
 #### Install Pyenv
 1. `brew install pyenv`
@@ -59,7 +60,7 @@ _note your will need to setup a free (or paid) account with Ngrok https://dashbo
 7. Celebrate the installation!
 
 ### Simple installation
-_Note: If you're missing pip then you need to set it up in your default python_
+_Note: If you're missing pip then you need to set it up_
 
 1. `pip install -r requirements.txt` 
 2. Edit the ngrok.yml
@@ -72,8 +73,8 @@ _Note: If you're missing pip then you need to set it up in your default python_
 ## Running from command line
 
 `cd [Spiderbox_directory]`
-<!-- `ngrok start --all --config=./ngrok.yml` -->
 `./spiderbox.sh`
+<!-- `ngrok start --all --config=./ngrok.yml` -->
 
 
 ---
@@ -88,7 +89,7 @@ _Note: If you're missing pip then you need to set it up in your default python_
 
 ### Limitations
 
-+ If you are using this for testing prior to your hosted server, be aware that ngrok.com is a shared domain and you'll likely be using one of their subdomains. If so then some classically available features to subdomains of an owned domain may not be available ot you. Some examples:
++ If you are using this for testing prior to your hosted server, be aware that ngrok.com is a shared domain and you'll likely be using one of their subdomains. If so, then some classically available features to subdomains of an owned domain may not be available ot you. Some examples:
   - Cookies can be set to `domian=.example.com` which allows all subdomains and the primary domain to share the same cookies. Many shared domain services (like yourSubDomain.ngrok.io) disallow writing shared cookies since it could allow you to hack/disrupt others on the shared service. (Example Error: 'Cookie “cookieTest” has been rejected for invalid domain.')
 
 
@@ -96,7 +97,7 @@ _Note: If you're missing pip then you need to set it up in your default python_
 # Umnsorted Stuff
 ---
 
-Used https://favicon.io/favicon-generator/ with "Leaguw Gothic" for the favicon generation
+Used https://favicon.io/favicon-generator/ with "League Gothic" for the favicon generation
 
 
 ---
