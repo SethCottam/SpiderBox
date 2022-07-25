@@ -77,19 +77,11 @@ ${X}"
 
 }
 
-#spiderbox_logo
-start_spiderbox
-
   ##############################################################################################
- ########  Flask functions - START                                                     ########
+ ########  SpiderBox functions - START                                                 ########
 ##############################################################################################
-#
-# Example Title
-# Shortcut - @flask, @flasky
 # Description - Example description of the thing and purpose
 # Author - Seth Cottam
-# Dependencies - colors.sh, the Forge library
-# Status - Work in progress
 #
 
 spiderbox() {
@@ -132,10 +124,9 @@ spiderbox() {
 
 
 ##############################################################################################
-####  Helper Child Functions (Standard)
+####  Helper Child Functions
 ##############################################################################################
-# These should be included as helpers with MOST parent functions
-
+# These are simple helper functions not core usage functions
 
 spiderbox_help() {
     # Formated Help using Finder function
@@ -150,7 +141,7 @@ spiderbox_help() {
 }
 
 ##############################################################################################
-####  Child Functions (Non-Standard)
+####  Child Functions
 ##############################################################################################
 # The unique functions that makes your parent function worth having
 
@@ -180,3 +171,7 @@ spiderbox_start() {
 ##############################################################################################
  ########  Flask functions - END                                                     ########
   ##############################################################################################
+
+
+#spiderbox_logo
+start_spiderbox
